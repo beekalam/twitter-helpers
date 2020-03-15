@@ -26,7 +26,7 @@ def get_by_hash_tag(hash_tag, since="2014-07-12"):
     #     print(status['created_at'])
     while True:
         i += 1
-        time.sleep(60)
+        # time.sleep(60)
         if results['search_metadata'] and 'next_results' in results['search_metadata']:
             results = api.GetSearch(
                 raw_query=results['search_metadata']['next_results'][1:],
