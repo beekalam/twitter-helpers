@@ -2,7 +2,7 @@
 ```
 $ virtualenv venv
 $ pip install -r requirements.txt
-$ venv\bin\activate
+$ venv\Scripts\activate
 ```
 # configs
 add your app `credentials` in `config.py`.
